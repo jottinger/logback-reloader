@@ -23,8 +23,8 @@ import org.springframework.stereotype.Component;
 
 @SuppressWarnings("unused")
 @Component("coarseLogThing")
-public class CoarseLogThingImpl implements LogThing {
-    private static final Logger log = LoggerFactory.getLogger(CoarseLogThingImpl.class);
+public class CoarseLogThing implements LogThing {
+    private static final Logger log = LoggerFactory.getLogger(CoarseLogThing.class);
 
     @Override
     public Logger getLog() {

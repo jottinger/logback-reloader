@@ -24,8 +24,8 @@ import org.springframework.stereotype.Component;
 
 @SuppressWarnings("unused")
 @Component("fineLogThing")
-public class FineLogThingImpl implements LogThing {
-    private static final Logger log = LoggerFactory.getLogger(FineLogThingImpl.class);
+public class FineLogThing implements LogThing {
+    private static final Logger log = LoggerFactory.getLogger(FineLogThing.class);
 
     @Override
     public Logger getLog() {
