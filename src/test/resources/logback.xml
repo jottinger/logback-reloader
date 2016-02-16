@@ -18,7 +18,6 @@
 
 <!--suppress XmlUnboundNsPrefix -->
 <configuration>
-    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender"/>
     <appender name="MEMORY" class="com.autumncode.logger.InMemoryAppender"/>
     <logger name="com.autumncode.components.fine" level="TRACE"/>
     <logger name="com.autumncode.components.coarse" level="INFO"/>
